@@ -6,10 +6,6 @@ body {
   background-color: #ffffff;
 }
 
-.pages {
-  list-style-type: none;
-}
-
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -63,6 +59,7 @@ body {
   margin: 0;
   padding: 0;
   margin-left: 93px;
+  list-style-type: none;
 }
 
 .pages__item {
