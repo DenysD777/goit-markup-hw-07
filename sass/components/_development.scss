@@ -25,13 +25,15 @@
    margin-top: 50px;
    padding: 0;
    list-style: none;
-  }
   
-  
-  .development-link{
+   &-link{
     position: relative;
     height: 294px;
   }
+  }
+  
+  
+  
   
   .development-title{
     position: absolute;
@@ -41,9 +43,8 @@
     background: rgba(47, 48, 58, 0.80);
     padding-top:27px;
     padding-bottom: 27px;
-  }
-  
-  .development-title__text{
+    
+    &__text{
     text-align: center;
     font-size: 14px;
     font-style: normal;
@@ -53,5 +54,8 @@
     text-transform: uppercase;
   color: $third-color-text;
   }
+  
+  }
+  
   
   
