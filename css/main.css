@@ -689,7 +689,7 @@ body {
   cursor: pointer;
 }
 .network-link:hover > .network-link__icon {
-  fill: hird-color-text;
+  fill: #ffffff;
   cursor: pointer;
 }
 
@@ -867,7 +867,7 @@ body {
 }
 
 /* Footer */
-.footer {
+.page-footer {
   background-color: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;
@@ -902,7 +902,7 @@ body {
   letter-spacing: 0.03em;
 }
 
-.logo-footer {
+.page-footer__logo {
   color: #ffffff;
   font-family: "Raleway", sans-serif;
   text-decoration: none;
@@ -912,7 +912,7 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
 }
-.logo-footer__text {
+.page-footer__logo .logo__text {
   color: #2196f3;
 }
 
@@ -936,7 +936,6 @@ body {
 }
 .footer-container__title {
   color: #ffffff;
-  font-family: Roboto;
   font-size: 14px;
   font-style: normal;
   font-weight: 700;

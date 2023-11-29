@@ -1,6 +1,6 @@
 /* Footer */
 
-.footer {
+.page-footer {
     background-color: $second-bg-color;
     padding-top: 60px;
     padding-bottom: 60px;
@@ -33,10 +33,9 @@
     letter-spacing: 0.03em;
   }
   
-  .logo-footer {
+  .page-footer__logo {
     color: $third-color-text;
-    font-family: "Raleway", sans-serif;
-  
+    font-family: $logo-font;
     text-decoration: none;
     font-style: normal;
     font-weight: 700;
@@ -44,7 +43,7 @@
     line-height: 1.19;
     letter-spacing: 0.03em;
   
-    &__text {
+    .logo__text {
     color: $accent-color;
   }
 }
@@ -70,7 +69,6 @@
   
    &__title{
     color: $third-color-text;
-  font-family: Roboto;
   font-size: 14px;
   font-style: normal;
   font-weight: 700;
